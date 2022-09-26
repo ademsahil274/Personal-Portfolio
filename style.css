@@ -1,4 +1,145 @@
+*{}
+
+body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    color: navy;
+    /* border: 2px solid red; */
+    padding: inherit;
+}
+
+/* h1, h2 {
+    color: darkgrey;
+    text-align: center;
+} */
+
 h1 {
-    color: red;
-    
+    color: black;
+    text-align: left;
+}
+
+h2{
+    text-align: center;
+}
+p {
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    background-color: darkmagenta;
+
+}
+
+.about-section{
+    height: 275px;
+}
+
+.about-section img{
+    height: 275px;
+    width: 250px;
+    float: left;
+}
+
+.about-description{
+    margin: 0px 5px 0px 5px;
+    float: left;
+    width: 80%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+nav{
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    min-width: 220px;
+    list-style:none;
+}
+
+nav a {
+    padding: inherit;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.main-page {
+     border: 2px solid;
+     padding: inherit;
+     height: 70%;
+}
+
+.portfolio{
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.portfolio-items{
+    margin: 0px auto;
+    width: 50%;
+}
+
+.portfolio-item-image {
+    position: relative;
+    float: left;
+    width:250px;
+    margin: 20px 0 25px;
+    overflow: auto;
+    margin-left: 10px;
+}
+
+.portfolio-item-image img {
+    border: 0 none;
+    opacity: 0.8;
+    width: 250px;
+}
+
+.portfolio-item-image h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 250px;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+}
+
+.portfolio-description {
+    position: relative;
+    float: right;
+    width: 100%;
+    margin: 20px 0 25px;
+    overflow: auto;
+}
+/* aside{
+    display: block;
+    background-color: lightblue;
+} */
+
+footer {
+    margin-top: 20%;
+    padding: 10px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
