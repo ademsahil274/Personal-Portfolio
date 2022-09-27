@@ -1,91 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+  <head>
+    <title>About | Adem Sahil</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./reset.css" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
 
-<head>
-        <title>About | Adem Sahil</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" type="text/css" href="./reset.css" />
-        <link rel="stylesheet" type="text/css" href="./style.css" />
-        
-</head>
+  <body>
+    <header>
+      <nav>
+        <h1 class="left">Adem Sahil</h1>
+        <ul class="right">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#history">Portfolio</a></li>
+          <li><a href="#contactme">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-    <header>    
-<nav>
-    <h1 class="left">Adem Sahil</h1>
-    <ul class="right">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-</nav>
-</header>
-
-<div class="about-section">
-    <h2 style="text-align: center">About Me</h2>
-        <img src="./Images/ProfilePic.jpg" alt="work-pic"/> 
-        <div class="about-description">My first paragraph starts here. I'm currently a bootcamp student.<br>
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+    <div class="about-section">
+      <h2 style="text-align: center">About Me</h2>
+      <div id="about-section-image">
+        <img src="./Images/ProfilePic.jpg" alt="work-pic" />
+        <div class="about-description">
+            My first paragraph starts here. I'm currently a bootcamp student.<br />
+            Lorem Ipsum has been the industry's standard dummy text ever since the
+            1500s,<br />
+            when an unknown printer took a galley of type and scrambled it to make a
+            type specimen book.<br />
+            It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s, when an
+            unknown printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries, but also the
+            leap into electronic typesetting, remaining essentially unchanged.
+            <br />
+            <br />
+            My second paragraph starts here. I'm currently a bootcamp student.<br />
+            Lorem Ipsum has been the industry's standard dummy text ever since the
+            1500s, when an unknown printer took a galley of type and scrambled it to
+            make a type specimen book. It has survived not only five centuries, but
+            also the leap into electronic typesetting, remaining essentially
+            unchanged. Lorem Ipsum has been the industry's standard dummy text ever
+            since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five
+            centuries, but also the leap into electronic typesetting, remaining
+            essentially unchanged.
         </div>
-</div>
-<div class="portfolio">
-    <h2>Portfolio</h2>
-    <div class="portfolio-items">
+      </div>
+    </div>
+    <div class="portfolio">
+      <h2>Portfolio</h2>
+      <div class="portfolio-items">
         <div class="portfolio-item-image">
-            <img src="./Images/LifeGuard1.jpg" class="left" alt="LifeGuard"/> <!-- added alt to the image --> 
-            <h3>LifeGuard</h3>
+          <img src="./Images/LifeGuard1.jpg" class="left" alt="LifeGuard" />
+          <!-- added alt to the image -->
+          <h3>LifeGuard</h3>
         </div>
         <div class="portfolio-item-image">
-            <img src="./Images/LifeGuard1.jpg" class="left" alt="LifeGuard"/> <!-- added alt to the image --> 
-            <h3>LifeGuard</h3>
+          <img src="./Images/StoneSlab.jpg" class="left" alt="LifeGuard" />
+          <!-- added alt to the image -->
+          <h3>ABC-Stone</h3>
         </div>
         <div class="portfolio-item-image">
-            <img src="./Images/LifeGuard1.jpg" class="left" alt="LifeGuard"/> <!-- added alt to the image --> 
-            <h3>LifeGuard</h3>
+          <img src="./Images/Bootcamp.jpg" class="left" alt="LifeGuard" />
+          <!-- added alt to the image -->
+          <h3>Bootcamp</h3>
         </div>
-    </div>  
-</div>
+      </div>
+    </div>
 
-<div class="container">
-    <form action="action_page.php">
-  
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-  
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-  
-      <label for="country">Country</label>
-      <select id="country" name="country">
-        <option value="australia">Australia</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
-      </select>
-  
-      <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-  
-      <input type="submit" value="Submit">
-  
-    </form>
-  </div>
+    <section id="form-section">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form action="action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
 
-<!-- <aside>
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+    <!-- <aside>
     <div>
         <input type="text" placeholder="Search..">
     </div>
     <section class="sidebar"></section>
 </aside> -->
 
-
-
-<footer> 
+    <div>
+      <footer>
         <h2>Copyright &copy; 2022 Adem Sahil</h2>
-        
-    </footer>
-</body>
-
-
+      </footer>
+    </div>
+  </body>
 </html>
